@@ -14,7 +14,7 @@ def create_header():
                            'margin': '20px 0'}
                 ),
                 dbc.Nav(children=[
-                        html.Div([dbc.Button("Adopt", href="/adopt", style={'margin': '0 10px', 'backgroundColor':'#556B2F'})]),
+                        html.Div([dbc.Button("Adopt", href="/adopt", className="btn-custom mx-1")]),
                         dbc.NavItem(dbc.NavLink("Donate", href="/donate", style={'color':'black'})),
                         dbc.NavItem(dbc.NavLink("Meet the Rescues", href="/meettherescues", style={'color':'black'})),
                         dbc.NavItem(dbc.NavLink("Our Story",  href="/ourstory", style={'color':'black'})),
