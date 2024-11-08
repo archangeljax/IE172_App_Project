@@ -403,3 +403,28 @@
 .dash-bootstrap .rc-slider-mark-text.rc-slider-mark-text-active {
     color: #343a40;
 }
+
+/* Custom button styling */
+.btn-custom {
+    background-color: #556B2F; /* Dark olive green */
+    color: #F4B623;            /* Golden yellow text */
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 5px;
+    text-transform: uppercase;
+    transition: background-color 0.3s ease;
+}
+
+/* Button hover effect */
+.btn-custom:hover {
+    background-color: #6B8E23; /* Slightly lighter olive green */
+    color: #F4B623;            /* Keep the text color the same */
+}
+
+/* Button active effect */
+.btn-custom:active {
+    background-color: #4D5B24; /* Darker olive green on click */
+    color: #F4B623;
+}
