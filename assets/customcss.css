@@ -403,3 +403,34 @@
 .dash-bootstrap .rc-slider-mark-text.rc-slider-mark-text-active {
     color: #343a40;
 }
+
+/* Button hover effect */
+.btn-custom:hover {
+    background-color: #6B8E23; /* Slightly lighter olive green */
+    color: #F4B623;            /* Keep the text color the same */
+}
+
+/* Button active effect */
+.btn-custom:active {
+    background-color: #4D5B24; /* Darker olive green on click */
+    color: #F4B623;
+}
+
+/* Import Roboto from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+p {
+    color: #F4B623;  /* A shade of golden yellow */
+  }
+
+p {
+    color: #556B2F;  /* A shade of dark olive green */
+  }
+
+p {
+    color: #F7EFCF;  /* A shade of cream dirty white */
+  }
+
+p {
+    color: #343434;  /* A shade of dark smoke gray */
+  }
